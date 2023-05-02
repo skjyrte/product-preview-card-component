@@ -113,10 +113,10 @@ body {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
   html {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   body {
@@ -157,8 +157,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
   }
-
-  
 }
 
+@media (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
 }
