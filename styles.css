@@ -23,20 +23,18 @@ body {
 .fitPicture {
   height: 600px;
   width: 400px;
-  border-radius: 15px 0px 0px 15px ;
+  border-radius: 15px 0 0 15px ;
 }
 
 .desktopPicture {
   height: 100%;
   width: auto;
-  border-radius: 15px 0px 0px 15px ;
+  border-radius: 15px 0 0 15px ;
 }
 
 .mobilePicture {
-  visibility: hidden;
   display: none;
 }
-
 
 .innerFrame {
   display: flex;
@@ -54,24 +52,24 @@ body {
 .title { 
   letter-spacing: 0.4rem;
   font-weight: 500;
-  margin: 0px;
+  margin: 0;
 }
 
 .product {
   font-size: 3rem;
   color: hsl(212, 21%, 14%);
   font-family: 'Fraunces', serif;
-  margin: 30px 0px;
+  margin: 30px 0;
 }
 
 .desc {
   font-weight: 500;
   line-height: 1.5;
-  margin: 0px;
+  margin: 0;
 }
 
 .price {
-  margin: 30px 0px;
+  margin: 30px 0;
   display: flex;
   align-items: center;
 }
@@ -85,7 +83,7 @@ body {
 .oldPrice {
   text-decoration: line-through;
   font-weight: 500;
-  margin: 0px 20px;
+  margin: 0 20px;
 }
 
 .cart {
@@ -93,7 +91,7 @@ body {
   border: none;
   border-radius: 10px;
   color: hsl(0, 0%, 100%);
-  padding: 20px 20px;
+  padding: 20px;
   text-align: center;
   text-decoration: none;
   width: 100%;
@@ -115,16 +113,11 @@ body {
 
 @media (max-width: 800px) {
 
-  html {
-    font-size: 14px;
-  }
-
   body {
     padding: 10px;
   }
 
   .desktopPicture {
-    visibility: hidden;
     display: none;
   }
 
@@ -141,7 +134,7 @@ body {
   .fitPicture {
     height: auto;
     width: 100%;
-    border-radius: 15px 15px 0px 0px ;
+    border-radius: 15px 15px 0 0;
   }
 
   .mobilePicture {
@@ -149,13 +142,11 @@ body {
     width: 100%;
     visibility: unset;
     display:unset;
-    border-radius: 15px 15px 0px 0px ;
+    border-radius: 15px 15px 0 0;
   }
 
   .text {
     padding: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
   }
 }
 
