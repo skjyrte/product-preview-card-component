@@ -1,38 +1,47 @@
 /* latin */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXo.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXo.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+2000-206F,
+    U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* latin */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(fonts/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw5aXo.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(fonts/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw5aXo.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+2000-206F,
+    U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* latin */
 @font-face {
-  font-family: 'Fraunces';
+  font-family: "Fraunces";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(fonts/6NUh8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7hzFUPJH58nib1603gg7S2nfgRYIcUByTCf7T.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(fonts/6NUh8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7hzFUPJH58nib1603gg7S2nfgRYIcUByTCf7T.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+2000-206F,
+    U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 html {
   font-size: 14px;
 }
 
-body { 
+body {
   background-color: hsl(30, 38%, 92%);
   display: flex;
   align-items: center;
@@ -53,17 +62,19 @@ body {
 .fitPicture {
   height: 600px;
   width: 400px;
-  border-radius: 15px 0 0 15px ;
+  border-radius: 15px 0 0 15px;
 }
 
 .desktopPicture {
+  font-size: 20px;
   height: 100%;
   width: auto;
-  border-radius: 15px 0 0 15px ;
+  border-radius: 15px 0 0 15px;
 }
 
 .mobilePicture {
   display: none;
+  font-size: 20px;
 }
 
 .innerFrame {
@@ -74,12 +85,12 @@ body {
   display: block;
   padding: 35px;
   color: hsl(228, 12%, 48%);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 1.3rem;
 }
 
-.title { 
+.title {
   letter-spacing: 0.4rem;
   font-weight: 500;
   margin: 0;
@@ -88,7 +99,7 @@ body {
 .product {
   font-size: 3rem;
   color: hsl(212, 21%, 14%);
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   margin: 30px 0;
 }
 
@@ -105,9 +116,9 @@ body {
 }
 
 .newPrice {
-  color: hsl(158, 36%, 37%);;
+  color: hsl(158, 36%, 37%);
   font-size: 3rem;
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
 }
 
 .oldPrice {
@@ -117,7 +128,7 @@ body {
 }
 
 .cart {
-  background-color: hsl(158, 36%, 37%); 
+  background-color: hsl(158, 36%, 37%);
   border: none;
   border-radius: 10px;
   color: hsl(0, 0%, 100%);
@@ -127,7 +138,7 @@ body {
   width: 100%;
   font-size: 1.3rem;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .attribution {
@@ -140,9 +151,7 @@ body {
   background-color: hsl(0, 0%, 100%);
 }
 
-
 @media (max-width: 800px) {
-
   body {
     padding: 10px;
   }
@@ -158,7 +167,7 @@ body {
   }
 
   .innerFrame {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   .fitPicture {
@@ -171,7 +180,7 @@ body {
     height: auto;
     width: 100%;
     visibility: unset;
-    display:unset;
+    display: unset;
     border-radius: 15px 15px 0 0;
   }
 
@@ -185,5 +194,3 @@ body {
     font-size: 12px;
   }
 }
-
-
