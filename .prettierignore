@@ -1,4 +1,4 @@
-0_untracked
-fonts
 node_modules
-*.json
+images
+fonts
+.*
